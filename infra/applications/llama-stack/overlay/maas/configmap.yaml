@@ -52,7 +52,7 @@ data:
       - provider_id: vllm-llama-3-2-3b
         provider_type: "remote::vllm"
         config:
-          url: "https://llama-3-2-3b-maas-apicast-production.apps.prod.rhoai.rh-aiservices-bu.com:443/v1"
+          url: "https://granite-vision-3-2-2b-maas-apicast-production.apps.prod.rhoai.rh-aiservices-bu.com:443/v1"
           max_tokens: 110000
           api_token: ${env.LLAMA_3_2_3B_API_TOKEN}
           tls_verify: true
